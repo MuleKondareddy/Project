@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+    url('https://media.istockphoto.com/id/1451807039/photo/carton-boxes-labelled-as-different-investment-product-categories-on-a-laptop-showing-stock.jpg?s=1024x1024&w=is&k=20&c=x60ZI6FacwbrWpwyqdcBLWxpsWunI5GUTRAEcA1Zyv8=');
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+a.active {
+  text-decoration: underline;
+}
